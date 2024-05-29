@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Create new blog posts for Snow-V-Cays' travel guide blog"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../Images/Snow-V-CaysLogo-Favicon.png"
+    />
+    <link rel="stylesheet" href="../CSS/index.css" />
+    <script defer src="../JS/header.js"></script>
+    <script type="module" src="../JS/create.mjs"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Create Post Page</title>
+  </head>
+  <body>
+    <header>
+      <img
+        class="header-logo"
+        src="../Images/Snow-V-CaysLogo.png"
+        alt="Snow-V-Cays' blue snowflake logo"
+      />
+
+      <div class="nav-wrapper">
+        <button class="Hamburger-menu" alt="Dropdown Navigation">
+          <img
+            class="Hamburger-menu"
+            src="../Images/HamburgerMenu.png"
+            alt="Hamburger Menu Icon"
+          />
+        </button>
+
+        <div class="nav-dropdown-box">
+          <nav>
+            <ul class="navigation">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="../account/login.html">Admin Login</a></li>
+              <li><a href="../account/register.html">Admin Register</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="Search-bar">
+        <button class="Search-Btn">
+          <img
+            class="Search-icon"
+            src="../Images/SearchIcon.png"
+            alt="Blue Search Icon"
+          />
+        </button>
+        <label class="search-label" for="Search-bar">Search...</label>
+        <input
+          class="search-bar"
+          id="Search-bar"
+          type="text"
+          placeholder="Search..."
+        />
+      </div>
+    </header>
+    <main>
+      <div class="Three-header-box">
+        <div class="h1-box-create-post">
+          <h1 class="h1-create-post">Create Post</h1>
+        </div>
+        <div class="Two-links-box">
+          <a class="post-link" href="edit.html">My blog posts</a>
+
+          <a class="Logout-link" id="logout-link" href="../account/login.html"
+            >Logout</a
+          >
+        </div>
+      </div>
+
+      <div class="Create-Post-form-wrapper">
+        <form id="create-post-form" action="/blog/posts" method="post">
+          <label class="input-label-create" for="title">Title</label>
+          <input
+            class="create-post-input"
+            type="text"
+            id="title"
+            name="title"
+            placeholder="Please enter the title of your blog post"
+            required
+          />
+
+          <label class="input-label-create" for="body">Body</label>
+          <textarea
+            class="create-post-input"
+            id="body"
+            name="body"
+            placeholder="Please enter your blog post body text"
+          ></textarea>
+
+          <!-- <label class="input-label-create" for="author">Author</label>
+          <input
+            class="create-post-input"
+            type="text"
+            id="author"
+            name="author"
+            placeholder="Please enter the name of the author for this blog post"
+          />
+          <label class="input-label-create" for="published"
+            >Date Published</label
+          >
+          <input
+            class="create-post-input"
+            type="text"
+            id="published"
+            name="published"
+            placeholder="Please enter the date this blog post was published"
+          /> -->
+
+          <label class="input-label-create" for="tags">Tags</label>
+          <input
+            class="create-post-input"
+            type="text"
+            id="tags"
+            name="tags"
+            placeholder="Please enter the tags for your blog post"
+          />
+
+          <label class="input-label-create" for="media">Media</label>
+          <input
+            class="create-post-input"
+            type="url"
+            id="media"
+            name="media"
+            placeholder="Please enter the image URL for your blog post"
+          />
+
+          <button class="Save-button" type="submit">Save</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="SM-icons-container">
+        <img
+          class="SM-Icon"
+          src="../Images/FacebookIcon.png"
+          alt="Facebook Icon"
+        />
+        <img
+          class="SM-Icon"
+          src="../Images/icons8-instagram-100.png"
+          alt="Instagram Icon"
+        />
+        <img class="SM-Icon" src="../Images/TiktokIcon.png" alt="Tiktok icon" />
+        <img
+          class="SM-Icon"
+          src="../Images/TwitterIcon.png"
+          alt="Twitter icon"
+        />
+      </div>
+
+      <div class="footer-logo-box">
+        <img
+          class="footer-logo"
+          src="../Images/Snow-V-CaysLogo-Footer.png"
+          alt="Snow-V-Cays snowflake logo"
+        />
+      </div>
+
+      <div class="right-side-footer">
+        <a href="">Contact Us</a>
+        <a href="">Privacy Policy</a>
+        <p>©2024 All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>

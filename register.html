@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Register an account to access the Snow-V-Cays admin dashboard"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./Images/Snow-V-CaysLogo-Favicon.png"
+    />
+    <link rel="stylesheet" href="../CSS/index.css" />
+    <script defer src="../JS/header.js"></script>
+    <script type="module" src="../JS/register.mjs"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Register Page</title>
+  </head>
+  <body>
+    <header>
+      <img
+        class="header-logo"
+        src="../Images/Snow-V-CaysLogo.png"
+        alt="Snow-V-Cays' blue snowflake logo"
+      />
+
+      <div class="nav-wrapper">
+        <button class="Hamburger-menu" alt="Dropdown Navigation">
+          <img
+            class="Hamburger-menu"
+            src="../Images/HamburgerMenu.png"
+            alt="Hamburger Menu Icon"
+          />
+        </button>
+
+        <div class="nav-dropdown-box">
+          <nav>
+            <ul class="navigation">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="login.html">Admin Login</a></li>
+              <li><a href="register.html">Admin Register</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="Search-bar">
+        <button class="Search-Btn">
+          <img
+            class="Search-icon"
+            src="../Images/SearchIcon.png"
+            alt="Blue Search Icon"
+          />
+        </button>
+        <label class="search-label" for="Search-bar">Search...</label>
+        <input
+          class="search-bar"
+          id="Search-bar"
+          type="text"
+          placeholder="Search..."
+        />
+      </div>
+    </header>
+    <main>
+      <div class="h1-register">
+        <h1>Register</h1>
+      </div>
+      <div class="register-form-wrapper">
+        <form
+          class="register-form"
+          id="reg-form"
+          method="post"
+          action="/auth/register"
+        >
+          <label class="register-label" for="name">Name</label>
+          <input
+            class="register-input"
+            type="text"
+            id="name"
+            name="name"
+            pattern="^[\w]+$"
+            title="Name can only contain lower or uppercase letters, numbers, and underscores. E.G. Jon_123."
+            placeholder="Please enter your Name"
+            required
+          />
+
+          <label class="register-label" id="email-label" for="email-register"
+            >Email</label
+          >
+          <input
+            class="register-input"
+            type="text"
+            id="email-register"
+            name="email"
+            pattern="^[\w\-.]+@(stud\.)?noroff\.no$"
+            title="Please enter a valid Noroff email address only."
+            placeholder="Please enter your email"
+            required
+          />
+
+          <label class="register-label" id="bio-label" for="bio">Bio</label>
+          <input
+            class="register-input"
+            type="text"
+            id="bio"
+            name="bio"
+            placeholder="Please enter your bio here"
+          />
+
+          <label
+            class="register-label"
+            id="pw-label-register"
+            for="password-register"
+            >Password</label
+          >
+          <input
+            class="register-input"
+            type="password"
+            id="password-register"
+            name="password"
+            placeholder="Please enter your password"
+            min-length="8"
+            required
+          />
+
+          <div class="register-btn-box">
+            <button class="register-btn" type="submit">Register Now</button>
+          </div>
+          <div class="have-account-box">
+            <p class="have-account-txt">Have an account?</p>
+            <a class="login-here-link" href="">Login here</a>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="SM-icons-container">
+        <img
+          class="SM-Icon"
+          src="../Images/FacebookIcon.png"
+          alt="Facebook Icon"
+        />
+        <img
+          class="SM-Icon"
+          src="../Images/icons8-instagram-100.png"
+          alt="Instagram Icon"
+        />
+        <img class="SM-Icon" src="../Images/TiktokIcon.png" alt="Tiktok icon" />
+        <img
+          class="SM-Icon"
+          src="../Images/TwitterIcon.png"
+          alt="Twitter icon"
+        />
+      </div>
+
+      <div class="footer-logo-box">
+        <img
+          class="footer-logo"
+          src="../Images/Snow-V-CaysLogo-Footer.png"
+          alt="Snow-V-Cays snowflake logo"
+        />
+      </div>
+
+      <div class="right-side-footer">
+        <a href="">Contact Us</a>
+        <a href="">Privacy Policy</a>
+        <p>©2024 All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>

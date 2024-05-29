@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Login to manage blog content on Snow-V-Cays' travel guide blog"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../Images/Snow-V-CaysLogo-Favicon.png"
+    />
+    <link rel="stylesheet" href="../CSS/index.css" />
+    <script defer src="../JS/header.js"></script>
+    <script type="module" src="../JS/Login.mjs"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <header>
+      <img
+        class="header-logo"
+        src="../Images/Snow-V-CaysLogo.png"
+        alt="Snow-V-Cays' blue snowflake logo"
+      />
+
+      <div class="nav-wrapper">
+        <button class="Hamburger-menu" alt="Dropdown Navigation">
+          <img
+            class="Hamburger-menu"
+            src="../Images/HamburgerMenu.png"
+            alt="Hamburger Menu Icon"
+          />
+        </button>
+
+        <div class="nav-dropdown-box">
+          <nav>
+            <ul class="navigation">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="login.html">Admin Login</a></li>
+              <li><a href="./register.html">Admin Register</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="Search-bar">
+        <button class="Search-Btn">
+          <img
+            class="Search-icon"
+            src="../Images/SearchIcon.png"
+            alt="Blue Search Icon"
+          />
+        </button>
+        <label class="search-label" for="Search-bar">Search...</label>
+        <input
+          class="search-bar"
+          id="Search-bar"
+          type="text"
+          placeholder="Search..."
+        />
+      </div>
+    </header>
+    <main>
+      <div class="h1-login">
+        <h1>Login</h1>
+      </div>
+      <div class="login-form-wrapper">
+        <form id="login-form" action="/auth/login" method="post">
+          <label class="login-label" for="email">Email</label>
+          <input
+            class="login-input"
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Please enter your email"
+            required
+          />
+
+          <label class="login-label" id="pw-label" for="password"
+            >Password</label
+          >
+          <input
+            class="login-input"
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Please enter your password"
+            required
+          />
+          <div class="login-btn-box">
+            <button class="login-btn" type="submit">Login</button>
+          </div>
+        </form>
+        <div class="forgot-pw-link">
+          <a class="forgot-pw" href="">Forgot Password?</a>
+        </div>
+        <div class="no-account-link">
+          <p>Don't have an account?</p>
+          <a class="click-here-link" href="">Click here</a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="SM-icons-container">
+        <img
+          class="SM-Icon"
+          src="../Images/FacebookIcon.png"
+          alt="Facebook Icon"
+        />
+        <img
+          class="SM-Icon"
+          src="../Images/icons8-instagram-100.png"
+          alt="Instagram Icon"
+        />
+        <img class="SM-Icon" src="../Images/TiktokIcon.png" alt="Tiktok icon" />
+        <img
+          class="SM-Icon"
+          src="../Images/TwitterIcon.png"
+          alt="Twitter icon"
+        />
+      </div>
+
+      <div class="footer-logo-box">
+        <img
+          class="footer-logo"
+          src="../Images/Snow-V-CaysLogo-Footer.png"
+          alt="Snow-V-Cays snowflake logo"
+        />
+      </div>
+
+      <div class="right-side-footer">
+        <a href="">Contact Us</a>
+        <a href="">Privacy Policy</a>
+        <p>©2024 All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
