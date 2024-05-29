@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Read individual blog posts from Snow-V-Cays' travel guide blog"
+      content="View the latest Snow-V-Cays' travel guide blog posts "
     />
     <link
       rel="icon"
       type="image/x-icon"
-      href="../Images/Snow-V-CaysLogo-Favicon.png"
+      href="./Images/Snow-V-CaysLogo-Favicon.png"
     />
-    <link rel="stylesheet" href="../CSS/index.css" />
-    <script defer src="../JS/header.js"></script>
-    <script type="module" src="../JS/public.mjs"></script>
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <script type="module" src="./JS/home.mjs"></script>
+    <script defer src="./JS/header.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,13 +23,13 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
-    <title>Blog Post Public Page</title>
+    <title>Blog Feed Page</title>
   </head>
   <body>
     <header>
       <img
         class="header-logo"
-        src="../Images/Snow-V-CaysLogo.png"
+        src="./Images/Snow-V-CaysLogo.png"
         alt="Snow-V-Cays' blue snowflake logo"
       />
 
@@ -37,7 +37,7 @@
         <button class="Hamburger-menu" alt="Dropdown Navigation">
           <img
             class="Hamburger-menu"
-            src="../Images/HamburgerMenu.png"
+            src="./Images/HamburgerMenu.png"
             alt="Hamburger Menu Icon"
           />
         </button>
@@ -45,21 +45,21 @@
         <div class="nav-dropdown-box">
           <nav>
             <ul class="navigation">
-              <li><a href="../index.html">Home</a></li>
+              <li><a href="">Home</a></li>
               <li><a href="">About</a></li>
               <li><a href="">Contact</a></li>
-              <li><a href="../account/login.html">Admin Login</a></li>
-              <li><a href="../account/register.html">Admin Register</a></li>
+              <li><a href="./account/login.html">Admin Login</a></li>
+              <li><a href="./account/register.html">Admin Register</a></li>
             </ul>
           </nav>
         </div>
       </div>
 
       <div class="Search-bar">
-        <button class="Search-Btn">
+        <button class="Search-Btn" id="search-btn">
           <img
             class="Search-icon"
-            src="../Images/SearchIcon.png"
+            src="./Images/SearchIcon.png"
             alt="Blue Search Icon"
           />
         </button>
@@ -73,15 +73,176 @@
       </div>
     </header>
     <main>
-      <div class="Public-Blog-Post-Wrapper">
-        <h1 class="h1-public-blog-post"></h1>
-        <div class="Blog-post-img-box">
-          <img class="Public-Blog-Post-Img" src="" alt="" />
-        </div>
-        <p class="public-post-body"></p>
-        <p class="Author"></p>
-        <p class="Published-date"></p>
+      <div class="Video-banner">
+        <h1 class="h1-home">Find Your Winter Wonderland</h1>
+
+        <video
+          class="video"
+          src="./Videos/Bannervid.mp4"
+          autoplay
+          muted
+          loop
+        ></video>
       </div>
+
+      <div class="h2-container">
+        <h2 class="h2-home">Most Recent Travel Guides</h2>
+      </div>
+
+      <div class="carousel">
+        <div class="Slide" id="slide-1">
+          <button class="carousel-button" id="left-arrow">
+            <img
+              class="btn-img-carousel"
+              src="./Images/Arrow1.png"
+              alt="Left
+            pointing arrow"
+            />
+          </button>
+          <img
+            class="carousel-image"
+            id="carousel-image-1"
+            src=""
+            alt="A town in Switzerland"
+          />
+          <div class="BP-header-container"></div>
+
+          <h2 id="carousel-header-1" class="post-header carousel-header"></h2>
+
+          <button id="read-more-btn-1" class="read-more">Read More</button>
+
+          <button class="carousel-button" id="right-arrow">
+            <img
+              class="btn-img-carousel"
+              src="./Images/Arrow2.png"
+              alt="Right pointing arrow"
+            />
+          </button>
+        </div>
+
+        <div class="Slide" id="slide-2">
+          <button class="carousel-button" id="left-arrow-2">
+            <img
+              class="btn-img-carousel"
+              src="./Images/Arrow1.png"
+              alt="Left
+            pointing arrow"
+            />
+          </button>
+          <img
+            class="carousel-image"
+            id="carousel-image-2"
+            src=""
+            alt="Vienna"
+          />
+          <div class="BP-header-container"></div>
+          <h2 class="post-header carousel-header" id="carousel-header-2"></h2>
+          <button id="read-more-btn-2" class="read-more">Read More</button>
+          <button class="carousel-button" id="right-arrow-2">
+            <img
+              class="btn-img-carousel"
+              src="./Images/Arrow2.png"
+              alt="Right
+            pointing arrow"
+            />
+          </button>
+        </div>
+        <div class="Slide" id="slide-3">
+          <button class="carousel-button" id="left-arrow-3">
+            <img
+              class="btn-img-carousel"
+              src="./Images/Arrow1.png"
+              alt="Left
+            pointing arrow"
+            />
+          </button>
+          <img
+            class="carousel-image"
+            id="carousel-image-3"
+            src=""
+            alt="Northern Lights in Norway"
+          />
+          <div class="BP-header-container"></div>
+
+          <h2 class="post-header carousel-header" id="carousel-header-3"></h2>
+          <button id="read-more-btn-3" class="read-more">Read More</button>
+          <button class="carousel-button" id="right-arrow-3">
+            <img
+              class="btn-img-carousel"
+              src="./Images/Arrow2.png"
+              alt="Right pointing arrow"
+            />
+          </button>
+        </div>
+      </div>
+
+      <div class="Destinations-SH-box">
+        <h3 class="Destinations-SH">Destinations</h3>
+      </div>
+
+      <div class="mountain-img-container">
+        <div class="destination-list">
+          <h3 class="destination">Europe</h3>
+          <h3 class="destination">USA</h3>
+          <h3 class="destination">Asia</h3>
+          <h3 class="destination">Antarctica</h3>
+        </div>
+        <img
+          class="mountain-img"
+          src="./Images/MountainBGImage.png"
+          alt="A Blue Mountain"
+        />
+      </div>
+      <div class="h4-home">
+        <h4>More of the latest Travel Guides</h4>
+      </div>
+
+      <div class="Search-bar-posts">
+        <button class="Search-Btn-two">
+          <img
+            class="Search-icon-two"
+            src="./Images/SearchIcon2.png"
+            alt="Blue Search Icon"
+          />
+        </button>
+        <label class="search-label" for="Search-input-two"
+          >Search Blog Posts</label
+        >
+        <input
+          class="search-bar-two"
+          id="Search-input-two"
+          type="text"
+          placeholder="Search Blog Posts..."
+        />
+      </div>
+      <div class="Blog-post-filter">
+        <label class="filter-label" for="continent">Select Destination</label>
+        <div class="select-wrapper">
+          <select class="continent-list" name="continent" id="continent">
+            <option class="continent-option" id="All-option" value="All">
+              All
+            </option>
+            <option class="continent-option" id="Europe-option" value="Europe">
+              Europe
+            </option>
+            <option class="continent-option" id="USA-option" value="USA">
+              USA
+            </option>
+            <option class="continent-option" id="Asia-option" value="Asia">
+              Asia
+            </option>
+            <option
+              class="continent-option"
+              id="North-America-option"
+              value="North America"
+            >
+              North America
+            </option>
+          </select>
+        </div>
+      </div>
+
+      <div class="Twelve-img-grid-container" id="grid-container"></div>
 
       <h5 class="H5-home">Subscribe to our Newsletter</h5>
       <form class="newsletter-form" action="form.html " method="get">
@@ -101,18 +262,18 @@
       <div class="SM-icons-container">
         <img
           class="SM-Icon"
-          src="../Images/FacebookIcon.png"
+          src="./Images/FacebookIcon.png"
           alt="Facebook Icon"
         />
         <img
           class="SM-Icon"
-          src="../Images/icons8-instagram-100.png"
+          src="./Images/icons8-instagram-100.png"
           alt="Instagram Icon"
         />
-        <img class="SM-Icon" src="../Images/TiktokIcon.png" alt="Tiktok icon" />
+        <img class="SM-Icon" src="./Images/TiktokIcon.png" alt="Tiktok icon" />
         <img
           class="SM-Icon"
-          src="../Images/TwitterIcon.png"
+          src="./Images/TwitterIcon.png"
           alt="Twitter icon"
         />
       </div>
@@ -120,7 +281,7 @@
       <div class="footer-logo-box">
         <img
           class="footer-logo"
-          src="../Images/Snow-V-CaysLogo-Footer.png"
+          src="./Images/Snow-V-CaysLogo-Footer.png"
           alt="Snow-V-Cays snowflake logo"
         />
       </div>
