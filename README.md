@@ -87,6 +87,3 @@ The project design language must appeal to the target audience.
 
 
 
-
-https://www.figma.com/design/Rn0A7Mnnugl6YVwVQHfwg6/Semester-Project-1--HF-Wireframe-and-Style-Guide?node-id=0-1&t=0bn1iYJnXbklQ4Cp-0
-
