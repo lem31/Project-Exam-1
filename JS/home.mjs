@@ -22,10 +22,7 @@ const image3 = document.querySelector("#carousel-image-3");
 
 async function postUserData() {
   const API_URL = API_LOGIN_URL;
-  const userData = {
-    email: "LeanneMeyer002@stud.noroff.no",
-    password: "Hello002",
-  };
+  const userData = localStorage.getItem("userData");
 
   try {
     const response = await fetch(API_URL, {
