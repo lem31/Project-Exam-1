@@ -1,6 +1,6 @@
 // import { API_REG_URL } from "/GlobalConst.mjs";
 
-API_REG_URL = "https://v2.api.noroff.dev/auth/register";
+const API_REG_URL = "https://v2.api.noroff.dev/auth/register";
 
 /* Constants */
 const regForm = document.getElementById("reg-form");
