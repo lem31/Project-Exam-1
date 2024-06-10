@@ -1,4 +1,4 @@
-import { API_REG_URL } from "./JS/GlobalConst.mjs";
+import { API_REG_URL } from "/GlobalConst.mjs";
 
 /* Constants */
 const regForm = document.getElementById("reg-form");
