@@ -26,6 +26,8 @@ async function regFormSubmit(event) {
     if (response.status === 201) {
       alert("You have successfully registered an account!");
       window.location.href = "login.html";
+    } else if (response.status === 400) {
+      alert("This user already exists, please try again.");
     } else {
       alert("Something went wrong, please try again.");
     }
