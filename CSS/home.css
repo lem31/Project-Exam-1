@@ -1,0 +1,240 @@
+.h2-container,
+.Destinations-SH-box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.h2-container {
+  height: 8rem;
+}
+
+.read-more {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 38%;
+  border: solid 3px var(--tertiary-color);
+  padding: 1rem 2rem 1rem 2rem;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.Destinations-SH-box {
+  height: 14rem;
+}
+
+.Video-banner {
+  display: flex;
+  max-height: 432px;
+  margin-top: 2rem;
+}
+
+.video {
+  width: 100%;
+}
+
+.h1-home {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+  text-wrap: nowrap;
+}
+
+.carousel {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.carousel-button {
+  width: 200px;
+  border: none;
+  background: none;
+  z-index: 12;
+}
+
+.btn-img-carousel:hover {
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 52, 114, 70%));
+  border-radius: 50%;
+}
+
+.btn-img-carousel:active {
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 52, 114, 100%));
+  border-radius: 50%;
+}
+
+.Slide {
+  flex: 100% 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.Slide img {
+  width: 48%;
+  height: 68%;
+  align-items: center;
+  align-self: center;
+}
+
+.Slide img:hover {
+  cursor: pointer;
+}
+
+.BP-header-container {
+  display: flex;
+  position: absolute;
+  bottom: 8%;
+  width: 80rem;
+  height: 10rem;
+  opacity: 0.8;
+}
+
+.post-header:hover,
+.grid-header:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.post-header:active,
+.grid-header:active {
+  text-decoration: underline;
+  text-decoration-color: var(--secondary-color);
+  text-decoration-thickness: 5px;
+  cursor: pointer;
+}
+
+.carousel-header {
+  display: flex;
+  position: absolute;
+  bottom: 20%;
+  width: 36vw;
+  text-align: center;
+}
+
+.mountain-img-container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-top: -15rem;
+  z-index: -12;
+}
+
+.mountain-img {
+  width: 60%;
+  z-index: -12;
+}
+
+.destination-list {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 55%;
+}
+
+.destination {
+  margin-left: 2.5rem;
+}
+
+.h4-home {
+  display: flex;
+  justify-content: center;
+  margin-top: -10rem;
+}
+
+.Search-bar-posts {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.Twelve-img-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 0;
+  margin-top: -5rem;
+  padding: 0;
+}
+
+.blog-post-container,
+.blog-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: -4.5rem;
+}
+
+.blog-post-container img,
+.blog-post img {
+  width: 90%;
+  height: 70%;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-post-container img:hover {
+  cursor: pointer;
+}
+
+.grid-header {
+  height: 8%;
+  position: absolute;
+  width: 28vw;
+  text-align: center;
+}
+
+.text-background-grid {
+  display: flex;
+  background-color: var(--primary-color);
+  opacity: 0.8;
+  position: absolute;
+  width: 30%;
+  height: 15%;
+}
+
+.H5-home {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+}
+
+.Subscribe-email {
+  width: 500px;
+  height: 36px;
+}
+
+.Subscribe-btn {
+  height: 20px;
+  width: 120px;
+  border: 8px var(--tertiary-color) solid;
+  padding: 10px 10px 30px 10px;
+  margin-top: -0.4rem;
+  margin-left: -1rem;
+  background-color: var(--primary-color);
+}
+
+.Subscribe-btn:hover {
+  border-color: rgb(39, 170, 225, 50%);
+}
+
+.Subscribe-btn:active {
+  border-color: rgb(39, 170, 225, 20%);
+}
