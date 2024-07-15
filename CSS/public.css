@@ -1,8 +1,3 @@
-.Public-Blog-Post-Wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .blog-post-img-box {
   display: flex;
   flex-direction: column;
