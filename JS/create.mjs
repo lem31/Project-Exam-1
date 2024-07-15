@@ -61,5 +61,3 @@ function logout() {
     alert("An error has occurred. Please try again.");
   }
 }
-
-//Function Calls
