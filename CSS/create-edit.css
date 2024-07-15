@@ -23,7 +23,7 @@
 }
 
 .post-link,
-.Logout-link {
+.logout-Link {
   text-decoration: none;
   text-wrap: nowrap;
   margin-left: 0;
@@ -34,7 +34,7 @@
   position: static;
 }
 
-.Logout-link {
+.logout-Link {
   position: static;
 }
 
@@ -46,11 +46,11 @@
   filter: drop-shadow(2px 5px 1px #27aae1);
 }
 
-.Logout-link:hover {
+.logout-Link:hover {
   filter: drop-shadow(5px 5px 5px #27aae1);
 }
 
-.Logout-link:active {
+.logout-Link:active {
   filter: drop-shadow(2px 5px 1px #27aae1);
 }
 
@@ -154,7 +154,7 @@
 
 .edit-page-edit-btn:hover,
 .edit-page-delete-btn:hover,
-.Save-button:hover,
+.save-Button:hover,
 .save-btn:hover,
 .cancel-btn:hover,
 .read-more:hover {
@@ -163,7 +163,7 @@
 
 .edit-page-edit-btn:active,
 .edit-page-delete-btn:active,
-.Save-button:active,
+.save-Button:active,
 .save-btn:active,
 .cancel-btn:active,
 .read-more:active {

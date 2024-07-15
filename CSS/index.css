@@ -44,19 +44,18 @@ nav a,
 h1,
 .h2-home,
 .h4-home,
-.Destinations-SH,
+.destinations-SH,
 .destination,
 .post-header,
 .grid-header,
-.H5-home,
-.Subscribe-btn,
+.h5-home,
+.subscribe-Btn,
 .right-side-footer a,
 .right-side-footer p,
-.Public-Blog-Post-Body,
 .post-link,
-.Logout-link,
+.logout-Link,
 .input-label-create,
-.Save-button,
+.save-Button,
 .h2-Edit-Page,
 .edit-label,
 .h3-edit,
@@ -74,15 +73,15 @@ h1,
 .have-account-txt,
 .login-here-link,
 .public-post-body,
-.Author,
-.Published-date,
+.author,
+.published-Date,
 select,
 .filter-label,
 .read-more {
   color: var(--secondary-color);
 }
 
-.Save-button,
+.save-Button,
 .save-btn,
 .cancel-btn,
 .login-btn,
@@ -94,7 +93,7 @@ select,
   border: 3px var(--tertiary-color) solid;
 }
 
-.BP-header-container,
+.bp-Header-Container,
 .header-container,
 .edit-page-edit-btn,
 .edit-page-delete-btn,
@@ -104,11 +103,12 @@ select,
 
 h1,
 .h2-home,
-.Destinations-SH,
+.destinations-SH,
 .post-header,
-.grid-header .H5-home,
+.grid-header,
+.h5-home,
 .post-link,
-.Logout-link,
+.logout-Link,
 .h2-Edit-Page,
 .h3-edit,
 .click-here-link,
@@ -123,12 +123,12 @@ select,
 }
 
 .destination,
-.Subscribe-btn,
+.subscribe-Btn,
 nav a,
 .right-side-footer a,
 .right-side-footer p,
 .input-label-create,
-.Save-button,
+.save-Button,
 .edit-label,
 .save-btn,
 .cancel-btn,
@@ -144,11 +144,11 @@ nav a,
 }
 
 nav a,
-.Subscribe-btn,
+.subscribe-Btn,
 .post-link,
-.Logout-link,
+.logout-Link,
 .input-label-create,
-.Save-button,
+.save-Button,
 .edit-label,
 .save-btn,
 .cancel-btn,
@@ -183,20 +183,19 @@ h1 {
 
 .h2-home,
 .h4-home,
-.Destinations-SH,
+.destinations-SH,
 .destination,
 .h3-edit {
   font-size: var(--font-size-H2-Desktop);
 }
 
-.Public-Blog-Post-Body,
-.Author,
-.Published-date {
+.author,
+.published-Date {
   font-size: var(--font-size-Body-Desktop);
   font-family: var(--font-family-2);
 }
 
-.H5-home {
+.h5-home {
   font-size: var(--font-size-Blog-Post-Sub-Headers-Desktop);
 }
 
@@ -210,7 +209,7 @@ header {
   align-items: center;
 }
 
-.Hamburger-menu {
+.hamburger-menu {
   display: none;
 }
 
@@ -261,8 +260,8 @@ nav a:active {
   filter: drop-shadow(2px 5px 1px #27aae1);
 }
 
-.Search-Btn,
-.Search-Btn-two {
+.search-Btn,
+.search-Btn-two {
   border: none;
   background: none;
   margin-left: 205px;
@@ -306,11 +305,11 @@ footer {
   /*GLOBAL STYLES*/
 
   nav a,
-  .Subscribe-btn,
+  .subscribe-Btn,
   .post-link,
-  .Logout-link,
+  .logout-Link,
   .input-label-create,
-  .Save-button,
+  .save-Button,
   .edit-label,
   .save-btn,
   .cancel-btn,
@@ -345,23 +344,22 @@ footer {
 
   .h2-home,
   .h4-home,
-  .Destinations-SH,
+  .destinations-SH,
   .destination,
   .h3-edit {
     font-size: var(--font-size-H2-Mobile);
   }
 
-  .Destinations-SH-box {
+  .destinations-SH-box {
     height: 17rem;
   }
 
-  .Public-Blog-Post-Body,
-  .Author,
-  .Published-date {
+  .author,
+  .published-Date {
     font-size: var(--font-size-Body-Mobile);
   }
 
-  .H5-home {
+  .h5-home {
     font-size: var(--font-size-Blog-Post-Sub-Headers-Mobile);
   }
 
@@ -397,7 +395,7 @@ footer {
     margin-top: -3rem;
   }
 
-  .Hamburger-menu {
+  .hamburger-menu {
     display: block;
     position: relative;
     width: 50px;
@@ -426,19 +424,14 @@ footer {
     position: absolute;
   }
 
-  .Search-Btn,
-  .Search-icon {
+  .search-Btn {
     grid-area: Three;
     position: static;
     z-index: 12;
     margin-top: -3.5rem;
   }
 
-  .Search-icon {
-    width: 40px;
-  }
-
-  .Search-Btn {
+  .search-Btn {
     margin-left: 0;
   }
 
@@ -502,7 +495,7 @@ footer {
   .text-background-grid {
     width: 90%;
   }
-  .BP-header-container {
+  .bp-Header-Container {
     width: 30rem;
     height: 7rem;
     bottom: 14%;
@@ -544,7 +537,7 @@ footer {
     align-items: center;
   }
 
-  .Logout-link {
+  .logout-Link {
     margin: 0;
   }
 
@@ -582,7 +575,7 @@ footer {
     z-index: 1;
   }
 
-  .Public-Blog-Post-Img {
+  .public-Blog-Post-Img {
     width: 20rem;
     height: 14rem;
     object-fit: cover;
@@ -601,11 +594,11 @@ footer {
   /*GLOBAL STYLES*/
 
   nav a,
-  .Subscribe-btn,
+  .subscribe-Btn,
   .post-link,
-  .Logout-link,
+  .logout-Link,
   .input-label-create,
-  .Save-button,
+  .save-Button,
   .edit-label,
   .save-btn,
   .cancel-btn,
@@ -640,31 +633,30 @@ footer {
 
   .h2-home,
   .h4-home,
-  .Destinations-SH,
+  .destinations-SH,
   .destination,
   .h3-edit {
     font-size: var(--font-size-H2-Mobile);
   }
 
-  .Destinations-SH-box {
+  .destinations-SH-box {
     height: 12rem;
     margin-top: 2rem;
     z-index: 2;
   }
 
-  .Public-Blog-Post-Body,
-  .Author,
-  .Published-date {
+  .author,
+  .published-Date {
     font-size: var(--font-size-Body-Mobile);
   }
 
-  .Public-Blog-Post-Img {
+  .public-Blog-Post-Img {
     width: 35rem;
     height: 20rem;
     object-fit: cover;
   }
 
-  .H5-home {
+  .h5-home {
     font-size: var(--font-size-Blog-Post-Sub-Headers-Mobile);
   }
 
@@ -699,7 +691,7 @@ footer {
     z-index: 12;
   }
 
-  .Hamburger-menu {
+  .hamburger-menu {
     display: block;
     position: relative;
     width: 50px;
@@ -728,19 +720,14 @@ footer {
     position: absolute;
   }
 
-  .Search-Btn,
-  .Search-icon {
+  .search-Btn {
     grid-area: Three;
     position: static;
     z-index: 12;
     margin-top: -3.5rem;
   }
 
-  .Search-icon {
-    width: 40px;
-  }
-
-  .Search-Btn {
+  .search-Btn {
     margin-left: 0;
   }
 
@@ -789,7 +776,7 @@ footer {
     width: 58%;
   }
 
-  .BP-header-container {
+  .bp-Header-Container {
     width: 45rem;
     height: 6rem;
     bottom: 15%;
@@ -834,7 +821,7 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-.Logout-link {
+.logout-Link {
   margin: 0;
 }
 
@@ -885,7 +872,7 @@ footer {
     align-items: center;
   }
 
-  .Logout-link {
+  .logout-Link {
     margin: 0;
   }
 

@@ -15,7 +15,7 @@ async function createPostHtml(clickedPost) {
     title.innerHTML = clickedPost.title;
   }
 
-  const image = document.querySelector(".Public-Blog-Post-Img");
+  const image = document.querySelector(".public-Blog-Post-Img");
   if (image) {
     image.src = clickedPost.media ? clickedPost.media.url : "";
   }
@@ -26,12 +26,12 @@ async function createPostHtml(clickedPost) {
     body.innerHTML = paragraphs.map((p) => `<p>${p}</p>`).join("");
   }
 
-  const author = document.querySelector(".Author");
+  const author = document.querySelector(".author");
   if (author) {
     author.innerHTML = "Author:" + clickedPost.author.name;
   }
 
-  const publishedDate = document.querySelector(".Published-date");
+  const publishedDate = document.querySelector(".published-Date");
   if (publishedDate) {
     publishedDate.innerHTML = "Published:" + clickedPost.created;
   }

@@ -20,7 +20,7 @@
   cursor: pointer;
 }
 
-.Destinations-SH-box {
+.destinations-SH-box {
   height: 14rem;
 }
 
@@ -89,7 +89,7 @@
   cursor: pointer;
 }
 
-.BP-header-container {
+.bp-Header-Container {
   display: flex;
   position: absolute;
   bottom: 8%;
@@ -205,7 +205,7 @@
   height: 15%;
 }
 
-.H5-home {
+.h5-home {
   display: flex;
   justify-content: center;
   margin-top: 8rem;
@@ -221,7 +221,7 @@
   height: 36px;
 }
 
-.Subscribe-btn {
+.subscribe-Btn {
   height: 20px;
   width: 120px;
   border: 8px var(--tertiary-color) solid;
@@ -231,10 +231,10 @@
   background-color: var(--primary-color);
 }
 
-.Subscribe-btn:hover {
+.subscribe-Btn:hover {
   border-color: rgb(39, 170, 225, 50%);
 }
 
-.Subscribe-btn:active {
+.subscribe-Btn:active {
   border-color: rgb(39, 170, 225, 20%);
 }
