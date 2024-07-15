@@ -1,5 +1,5 @@
-.Three-header-box,
-.Three-header-box-2 {
+.three-header-box,
+.three-header-box-2 {
   display: grid;
   grid-template-columns: 0% 80% 20%;
   align-items: center;
@@ -15,7 +15,7 @@
   width: 100vw;
 }
 
-.Two-links-box {
+.two-links-box {
   display: flex;
   grid-area: Three;
   justify-content: space-evenly;
@@ -90,7 +90,7 @@
   justify-content: center;
 }
 
-.Create-Post-form-wrapper {
+.create-Post-form-wrapper {
   display: flex;
   justify-content: center;
   width: 100vw;

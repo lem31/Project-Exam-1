@@ -1,5 +1,5 @@
 .h2-container,
-.Destinations-SH-box {
+.destinations-SH-box {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -24,7 +24,7 @@
   height: 14rem;
 }
 
-.Video-banner {
+.video-Banner {
   display: flex;
   max-height: 432px;
   margin-top: 2rem;
@@ -70,7 +70,7 @@
   border-radius: 50%;
 }
 
-.Slide {
+.slide {
   flex: 100% 0 0;
   display: flex;
   justify-content: center;
@@ -78,14 +78,14 @@
   position: relative;
 }
 
-.Slide img {
+.slide img {
   width: 48%;
   height: 68%;
   align-items: center;
   align-self: center;
 }
 
-.Slide img:hover {
+.slide img:hover {
   cursor: pointer;
 }
 
@@ -153,13 +153,13 @@
   margin-top: -10rem;
 }
 
-.Search-bar-posts {
+.search-bar-posts {
   display: flex;
   justify-content: center;
   margin-bottom: 3rem;
 }
 
-.Twelve-img-grid-container {
+.twelve-img-grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -216,7 +216,7 @@
   justify-content: center;
 }
 
-.Subscribe-email {
+.subscribe-Email {
   width: 500px;
   height: 36px;
 }

@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
 }
-.Blog-post-img-box {
+.blog-post-img-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,7 +15,7 @@
   width: 80vw;
 }
 
-.Blog-post-img-box {
+.blog-post-img-box {
   width: 100%;
   height: auto;
 }
