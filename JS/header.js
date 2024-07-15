@@ -8,7 +8,7 @@ const nav = document.querySelector(".navigation");
 /**CONSTANTS FOR SEARCH BAR */
 
 const searchBtn = document.querySelector(".search-Btn");
-const searchBar = document.querySelector(".search-bar");
+const searchBar = document.querySelector(".search-Bar");
 
 //**EVENT LISTENERS */
 

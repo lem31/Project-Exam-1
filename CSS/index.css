@@ -213,8 +213,8 @@ header {
   display: none;
 }
 
-.Search-icon,
-.Search-icon-two {
+.search-Icon,
+.search-Icon-two {
   width: 23px;
 }
 
@@ -269,13 +269,13 @@ nav a:active {
   position: absolute;
 }
 
-.search-bar,
+.search-Bar,
 .search-bar-two {
   width: 247px;
   height: 35px;
 }
 
-.Search-bar,
+.search-Bar,
 .search-form {
   grid-area: Four;
 }
@@ -417,7 +417,7 @@ footer {
     margin-left: 3rem;
   }
 
-  .search-bar {
+  .search-Bar {
     width: 120px;
     margin-left: -4.8rem;
     margin-top: -2rem;
@@ -435,7 +435,7 @@ footer {
     margin-left: 0;
   }
 
-  .Search-bar {
+  .search-Bar {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -712,7 +712,7 @@ footer {
     justify-self: center;
   }
 
-  .search-bar {
+  .search-Bar {
     display: none;
     width: 160px;
     margin-left: -7.6rem;
@@ -731,7 +731,7 @@ footer {
     margin-left: 0;
   }
 
-  .Search-bar {
+  .search-Bar {
     position: relative;
     display: flex;
     flex-direction: column;
