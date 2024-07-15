@@ -1,0 +1,67 @@
+.h1-login,
+.h1-register {
+  display: flex;
+  justify-content: center;
+}
+
+.register-form,
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  width: 50%;
+}
+
+.register-input {
+  padding: 1rem;
+  width: 100%;
+  border: 2px var(--tertiary-color) solid;
+}
+
+.login-input {
+  padding: 1rem;
+  width: 100%;
+}
+
+.login-btn,
+.register-btn {
+  margin-top: 1rem;
+}
+
+.login-btn-box,
+.register-btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-form-wrapper,
+.login-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 60vh;
+  align-items: center;
+}
+
+.register-form-wrapper {
+  height: 100vh;
+}
+
+.no-account-link,
+.forgot-pw-link,
+.have-account-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pw-label,
+.forgot-pw-link,
+#username-label {
+  margin-top: 1rem;
+}
+
+#bio {
+  padding-bottom: 10rem;
+}
